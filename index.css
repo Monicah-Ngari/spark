@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, sans-serif;
+    font :16px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.languages, .projects, .more-projects{
+    list-style-type: square;
+    margin: 20px;
+    padding: 10px;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+}
+
+.project{
+    color: #333;
+    margin: 20px;
+}
+img{
+    width: 300px;
+    height: 200px;
+    border-radius: 100px;
+    float: right;
+}
+h1{
+    color: #0056b3;
+    text-align: center;
+    padding: 20px 0;
+}
+a{
+    color: #ff6600;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
