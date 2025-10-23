@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    font :16px;
+    font-size :16px;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -24,20 +24,22 @@ img{
     float: right;
 }
 h1{
-    color: #0056b3;
+    /* color: rgb(246, 23, 3); */
     text-align: center;
     padding: 20px 0;
+   
 }
-a{
-    color: #ff6600;
+.navbar .nav-item .nav-link {
+    color: #ff6600 !important;
     text-decoration: none;
     margin: 0 15px;
 }
-a:hover{
-    text-decoration: underline;
+
+.navbar .nav-item .nav-link:hover {
+    text-decoration: underline !important;
 }
 button{
-    text-align: ecenter;
+    text-align: center;
     background-color: #008CBA;
     color: white;
     padding: 10px 20px;
